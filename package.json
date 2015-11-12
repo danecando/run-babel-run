@@ -1,0 +1,35 @@
+{
+  "name": "run-babel-run",
+  "version": "1.0.0",
+  "description": "A CLI tool that kicks off your server babeled so u dont have to use lame requires in your root file runtime transpilations ya dig",
+  "main": "./bin/runbab",
+  "bin": {
+    "runbab": "bin/runbab"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danecando/run-babel-run.git"
+  },
+  "keywords": [
+    "babel",
+    "transpile",
+    "es6",
+    "runtime",
+    "cli"
+  ],
+  "author": "Dane Grant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danecando/run-babel-run/issues"
+  },
+  "homepage": "https://github.com/danecando/run-babel-run#readme",
+  "peerDependencies": {
+    "babel-core": "6.x"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
