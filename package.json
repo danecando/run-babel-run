@@ -1,6 +1,6 @@
 {
   "name": "run-babel-run",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A CLI tool that kicks off your server babeled so u dont have to use lame requires in your root file runtime transpilations ya dig",
   "main": "./bin/runbab",
   "bin": {

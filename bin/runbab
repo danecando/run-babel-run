@@ -10,11 +10,11 @@ const file = process.argv[2] || 'index.js';
 
 babel.transformFile(path.join(__dirname, file), (err, result) => {
     if (err) {
-    console.error(err);
-    return;
-}
-module.filename = path.join(__dirname, file);
-process.chdir(path.dirname(module.filename));
-require('babel-core/register');
-process.nextTick(() => eval(result.code));
+        console.error(err);
+        return;
+    }
+    module.filename = path.join(__dirname, file);
+    process.chdir(path.dirname(module.filename));
+    require('babel-core/register');
+    process.nextTick(() => eval(result.code));
 });
